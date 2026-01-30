@@ -62,6 +62,7 @@
           transition: transform 0.8s var(--ease-smooth), box-shadow 0.6s var(--ease-smooth);
           transform-style:preserve-3d;
           box-shadow:var(--shadow);
+          
         }
         .card-3d:hover .card-inner{
           transform: translateY(-12px) rotateX(3deg) rotateY(-2deg) scale(1.01);
