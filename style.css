@@ -238,11 +238,11 @@
           position:relative; overflow:hidden;
         }
         .btn-primary:focus{ outline:3px solid rgba(11,61,145,0.12); outline-offset:2px; }
-        .btn-primary:hover{ transform: translateY(-3px); box-shadow: 0 20px 45px rgba(11,61,145,0.14); }
+        .btn-primary:hover{  box-shadow: 0 20px 45px rgba(11,61,145,0.14); }
         .btn-primary::after{
-          content:''; position:absolute; inset:auto  -40% -40% auto; width:220%; height:220%; background: radial-gradient(circle at 30% 20%, rgba(255,255,255,0.12), transparent 20%); transform: rotate(15deg); transition: transform 700ms var(--ease-smooth); pointer-events:none;
+          content:''; position:absolute; inset:auto  -40% -40% auto; width:220%; height:220%; background: radial-gradient(circle at 30% 20%, rgba(255,255,255,0.12), transparent 20%); 
         }
-        .btn-primary:hover::after{ transform: translateX(-18%) rotate(15deg); }
+        
 
         .btn-secondary{ background: linear-gradient(90deg,var(--accent), var(--accent-2)); color:white; padding:10px 24px; border-radius:10px; font-weight:700; border:none; cursor:pointer; box-shadow: 0 8px 18px rgba(245,158,11,0.12); }
         .btn-secondary:hover{ transform: translateY(-2px); }
